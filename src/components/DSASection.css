@@ -1,0 +1,39 @@
+.dsa-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  background: #f9f9f9; /* optional light background */
+  border-radius: 8px;
+}
+
+.dsa-content {
+  flex: 1 1 400px;
+}
+
+.dsa-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.dsa-content p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.dsa-button {
+  background-color: #001eff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dsa-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
